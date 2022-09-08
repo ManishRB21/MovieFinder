@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  background-color: rgb(7, 3, 32, 0.4);
+  /* padding: 10px 0px; */
+  width: 100%;
+  margin: auto;
+
+  height: 100%;
+  padding-bottom: 30px;
+}
+.load_app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 130px !important;
+  flex-direction: column;
+}
+.m__load {
+}
+.wel {
+  font-size: 16px;
+  font-size: clamp(
+    128px,
+    128px + (320 - 128) * ((100vw - 1024px)/ (2560 - 1024)),
+    320px
+  );
+}
+
+.loading {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

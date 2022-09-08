@@ -1,0 +1,225 @@
+.ListContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.all__movies {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.TreadingHome3 {
+  padding-left: 10px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  border-bottom: 1px solid rgba(173, 226, 240, 0.1) !important;
+}
+.ListContent2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.all {
+  position: relative;
+  margin: 40px 0;
+}
+.all::after {
+  content: "";
+  position: absolute;
+  background: rgba(11, 5, 65, 0.7);
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
+.TrailerContent {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/oKt4J3TFjWirVwBqoHyIvv5IImd.jpg");
+  height: 340px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0 20px;
+}
+
+.TrailerContent__title {
+  color: #fff;
+  background: #191c76;
+  padding: 7px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 40px;
+  width: 150px;
+  position: relative;
+  margin: 20px;
+  top: 20px;
+  z-index: 200;
+}
+.TrailerContent__title h2 {
+  font-size: 16px;
+  z-index: 200;
+}
+.ListContent3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+  align-items: center;
+}
+.title__home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 98%;
+}
+.view__more Link:hover {
+  text-decoration: none !important;
+}
+Link {
+}
+.view__more p {
+  color: #838383;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: 0.5s;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500 !important;
+  font-size: 14px;
+  list-style: none;
+  text-decoration: none;
+}
+.view__more p:hover {
+  color: #f1f4f8;
+  text-decoration: none !important;
+}
+.my__main {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+
+  margin: 30px 0 auto;
+}
+.TreadingHome {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sec__main {
+  width: 100%;
+  margin: 0 20px;
+  position: relative;
+}
+.sec__main .pag {
+  margin-right: 20px;
+}
+.all_genres {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1319px) {
+  .all {
+    height: 620px !important;
+  }
+  .all::after {
+  }
+  .TrailerContent {
+    height: 620px !important;
+  }
+  .view__more p {
+    margin-bottom: 0 !important;
+    margin-top: 18px !important;
+    font-size: 12px;
+    font-family: InspireTWDC, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 880px) {
+  .my__main {
+    justify-content: center;
+  }
+  .all__movies {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .TreadingHome3 {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    border-bottom: 1px solid rgba(173, 226, 240, 0.1) !important;
+  }
+}
+@media screen and (max-width: 680px) {
+  .all {
+    height: 1100px !important;
+  }
+  .all::after {
+  }
+  .TrailerContent {
+    height: 1100px !important;
+  }
+  .wrapper {
+    margin-top: 10px !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .view__more p {
+    margin-bottom: 0 !important;
+    margin-top: 8px !important;
+    font-family: InspireTWDC, Helvetica, sans-serif;
+  }
+  .pag {
+    position: absolute;
+    margin-top: 40px;
+    z-index: 1200;
+  }
+  .ListContent {
+    margin-top: 100px;
+  }
+  .my__main {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width: 463px) {
+  .genre {
+    border-radius: none !important;
+  }
+  .view__more p {
+    padding-bottom: 0 !important;
+    margin-top: 18px !important;
+    font-size: 12px;
+    font-family: InspireTWDC, Helvetica, sans-serif;
+  }
+}
+@media screen and (max-width: 375px) {
+  .ListContent2 {
+    padding: 0 !important;
+  }
+  .TreadingHome3 {
+    padding: 0 5px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .all {
+    height: 1000px !important;
+  }
+  .all::after {
+  }
+  .TrailerContent {
+    height: 1000px !important;
+  }
+  .wrapper {
+    margin-top: 10px !important;
+  }
+  .genre {
+    border-radius: none;
+  }
+}

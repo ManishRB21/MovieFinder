@@ -1,0 +1,30 @@
+.not__found {
+  background-color: #180b3b !important;
+  background-image: url("../../images/404-Error-Page.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+}
+.not__found button {
+  height: 50px;
+  width: 200px;
+  border: none;
+  outline: none;
+  color: aliceblue;
+  font-weight: 700;
+  background: #0087ff;
+  border-radius: 50px;
+  letter-spacing: 2.5px;
+  transition: all 0.5s ease-in;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.not__found button:hover {
+  transform: scale(0.95);
+  background: white;
+  color: rgb(29, 28, 28);
+  border: 2px solid #0087ff;
+  box-shadow: 0 0 5px 5px rgb(201, 200, 200);
+}

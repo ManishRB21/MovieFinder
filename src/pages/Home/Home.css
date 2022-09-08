@@ -1,0 +1,174 @@
+.TreadingHome {
+  padding: 0px 20px;
+}
+.TreadingHome h3 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #abb7c4;
+}
+.btn__home {
+  padding-top: 10px;
+  width: 200px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+.major {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn__home h6 {
+  color: #ffffff;
+  font-weight: 700;
+}
+.welcome__info {
+  background-image: url("https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/phwgPLUIcv3sbI1xmkiurThR13Q.jpg");
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 10;
+}
+.welcome__info::after {
+  content: "";
+  position: absolute;
+  background: rgba(44, 21, 88, 0.4);
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+main button {
+  background: #4d21b9;
+}
+.welcome__info h2 {
+  color: #fff;
+  font-size: 3rem;
+  z-index: 77;
+  padding-top: 20px;
+}
+.welcome__info p {
+  color: #fffdfd;
+  font-size: 2rem;
+  z-index: 77;
+}
+.main {
+  width: 80% !important;
+  margin: 20px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  min-width: 250px !important;
+  border-radius: 60px !important;
+}
+.input-group > .form-control {
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  height: 45px !important;
+}
+
+.main button:hover {
+  color: #444343;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+@media screen and (max-width: 729px) {
+  .welcome__info {
+    height: 300px;
+  }
+  .bg__home {
+  }
+}
+@media screen and (max-width: 570px) {
+  .welcome__info {
+    height: 250px;
+  }
+  .welcome__info h2 {
+    font-size: 2rem !important;
+  }
+  .welcome__info p {
+    font-size: 1.5rem !important;
+  }
+  .input-group-append {
+    width: 100px !important;
+    height: 45px !important;
+    font-size: 12px !important;
+  }
+  .main {
+    width: 100% !important;
+    margin-left: 20px !important;
+  }
+  .btn__home {
+    background: transparent !important;
+    padding-right: 30px !important;
+    margin-left: 0 !important;
+    width: 190px !important;
+    margin-bottom: 20px !important;
+  }
+  .btn__home h6 {
+    color: rgb(207, 234, 241);
+    font-family: InspireTWDC, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .welcome__info {
+    height: 230px !important;
+  }
+  .main button {
+    width: 100px !important;
+    height: 45px !important;
+    font-size: 12px !important;
+  }
+  .welcome__info p {
+    font-size: 1rem !important;
+  }
+  .input-group-append {
+    width: 50px !important;
+    height: 45px !important;
+    font-size: 12px !important;
+  }
+  .main {
+    width: 90% !important;
+    margin: 10px !important;
+  }
+  .TreadingHome h3 {
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    color: #abb7c4;
+  }
+}

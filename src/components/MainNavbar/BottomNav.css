@@ -1,0 +1,10 @@
+.BottomNav {
+  display: none;
+}
+
+@media (max-width: 890px) {
+  .BottomNav {
+    display: block;
+    box-shadow: 1px -1px 3px 0px rgba(59, 59, 59, 0.75);
+  }
+}

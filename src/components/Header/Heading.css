@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D&display=swap");
+.MainHeading {
+  z-index: 100 !important;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.MainHeading img {
+  width: 160px;
+  height: 120px;
+  z-index: 100;
+  margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  .MainHeading {
+    z-index: 100 !important;
+    color: #fff;
+  }
+  .MainHeading img {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .MainHeading img {
+    z-index: 100;
+    width: 100px;
+    margin-bottom: 0px !important;
+  }
+}

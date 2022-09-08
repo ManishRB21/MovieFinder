@@ -1,0 +1,88 @@
+.modal-content {
+  width: 750px !important;
+  z-index: 100 !important;
+  height: 550px !important;
+  background-color: #000;
+}
+.modal-header {
+  border-bottom: 1px solid #000;
+}
+.modal-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+iframe {
+  width: 700px;
+  height: 400px;
+}
+.wrapper {
+  position: relative;
+}
+.wrapper img {
+  width: 280px;
+  height: 170px;
+}
+.wrapper img::after {
+  content: "";
+  position: absolute;
+  background: rgba(23, 12, 44, 0.7);
+
+  height: inherit;
+  width: inherit;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.wrapper {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  z-index: 1000;
+  margin-top: 20px;
+}
+.wrapper:hover {
+  transform: scale(1.05);
+}
+.play {
+  position: absolute;
+  bottom: 30px;
+  left: 55px;
+}
+.trailer__details {
+  padding: 10px 0;
+  position: absolute;
+  left: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+.trailer__details p {
+  line-height: 10px;
+}
+.modal-title {
+  color: #fff;
+  margin-left: 20px;
+}
+.modal-title h5 {
+}
+@media screen and (max-width: 360px) {
+  .wrapper img {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wrapper img {
+    width: 260px;
+    height: 150px;
+  }
+}

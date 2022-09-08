@@ -1,0 +1,34 @@
+.write__footer {
+  background: #16162e;
+  padding: 20px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #abb7c4;
+}
+.container2 span {
+  font-size: 14px;
+  width: fit-content;
+}
+.write__footer a {
+  cursor: pointer;
+}
+.scroll-to-top {
+  color: #abb7c4;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.scroll-to-top:hover {
+  color: #67c727;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .write__footer {
+  }
+  .container2 span,
+  .scroll-to-top {
+    font-size: 11px;
+  }
+}
